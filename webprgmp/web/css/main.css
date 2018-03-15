@@ -1,0 +1,158 @@
+/*
+    #000B29 Night
+    #D70026 Phone Booth Red
+    #F8F5F2 Pearl
+    #EDB83D Flash
+    #2E6BE6 Button Blue
+ */
+header{
+	z-index: 1;
+	position: fixed;
+    margin-top: 0;
+}
+
+.search{
+    align-self: left;
+}
+
+#nav{
+    background-color:  #000B29 !important;
+}
+
+.nav-link, .navbar-brand{
+    color: #EDB83D !important;
+}
+
+body{
+    background-color: #F5FFFA;
+    height: 100% !important;
+	margin-bottom: 30px;
+}
+
+#maincontainer{
+    size: auto;
+}
+
+#page-heading{
+    font-size: 40px;
+    font-weight: inherit;
+}
+
+.card-title{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.card-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#card-content{
+    min-height: 400px;
+}
+
+#card-row{
+    margin-top: 20px;
+
+}
+
+img{
+    max-width: 200px;
+    max-height: 300px;
+}
+
+#symbol{
+    margin-top: 50px;
+	margin-right: 50px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+	max-width: 30px;
+    max-height: 30px;
+}
+
+/* Sidebar */
+#sidebar-wrapper {
+    position: fixed;
+    width: 205px;
+    height: 100%;
+    overflow-y: hidden;
+    background: #00293C;
+    top: 0;
+}
+
+/* Sidebar styling - the entire ul list */
+#sidebar-wrapper{
+    background-color: #000B29 !important;
+	margin-left: -205px;
+}
+
+.sidebar-nav {
+	margin-top: 100px;
+    padding: 0;
+    list-style: none;
+}
+
+#member-nav{
+    margin-top: 50px;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    text-align: justify;
+    color: #EDB83D;
+    margin-top: 0;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #EDB83D;
+}
+
+.sidebar-nav li a:hover {
+    background: #2E6BE6;
+}
+
+#page-content-wrapper{
+	margin-top: 40px;
+	margin-left: 0px;
+}
+
+li{
+    margin: 2px;
+}
+
+#widgets{
+    float: right;
+}
+
+#signup{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+textarea.form-control{
+    height: 150px;
+}
+
+footer{
+    background-color: #000B29;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+	overflow: hidden;
+    padding-top: 10px;
+	padding-bottom: 10px;
+    color: #F8F5F2;
+    text-align: center;
+	font-size: 10px;
+	z-index: 1;
+}
